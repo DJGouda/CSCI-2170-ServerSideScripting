@@ -1,0 +1,113 @@
+/**
+ * CSCI 2170: Intro to Server-Side Scripting (Winter 2025)
+ * Dr. Raghav Sampangi
+ * Starting code with common styles for the to-do list discussion example
+ * Jan 29, 2025
+ */
+
+/* General styles for the body element and all content on the page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80vw;
+    margin: 0 auto;    
+}
+
+/* Main-level container styles (header, main, footer) */
+header.pg-banner {
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main.pg-main-content {
+    min-height: 40vh;
+}
+footer.pg-footer {
+    border-top: 5px solid gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Primary navigation menu styles (page header/banner)
+ * including responsive styles
+ */
+nav.primary-nav { 
+    display: flex;
+    gap: 1em;
+}
+nav.primary-nav > a:link,
+nav.primary-nav > a:visited {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    padding: 1em;
+    transition: all 0.5s ease;
+}
+nav.primary-nav > a:hover,
+nav.primary-nav > a:active {
+    color: #707372;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+}
+@media screen and (width < 640px) {
+    header.pg-banner {
+        flex-direction: column;
+    }
+    nav.primary-nav { 
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav.primary-nav > a:hover,
+    nav.primary-nav > a:active {
+        color: gold;
+        background-color: steelblue;
+        text-decoration: none;
+        transition: none;
+    }
+}
+
+/* Secondary navigation menu styles (page footer)
+ * including responsive styles
+ */
+nav.secondary-nav { 
+    display: flex;
+    gap: 1em;
+}
+nav.secondary-nav > a:link,
+nav.secondary-nav > a:visited {
+    color: #707372;
+    text-decoration: none;
+}
+nav.secondary-nav > a:hover,
+nav.secondary-nav > a:active {
+    color: steelblue;
+    border-bottom: 1px solid gold;
+}
+@media screen and (width < 640px) {
+    footer.pg-footer {
+        flex-direction: column-reverse;
+        gap: 1em;
+    }
+    nav.secondary-nav { 
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav.secondary-nav > a {
+        padding: 1em;
+    }
+    nav.secondary-nav > a:hover,
+    nav.secondary-nav > a:active {
+        color: darkorange;
+        border: none;
+        transition: none;
+    }
+}
+
+/* Rule to apply 1em padding on all sides to any element */
+.one-em-padding {
+    padding: 1em;
+}
+
