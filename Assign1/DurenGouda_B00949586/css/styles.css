@@ -1,0 +1,13 @@
+/**@Duren Gouda
+    B00949586
+*/
+
+.container {
+    max-width: 600px;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
