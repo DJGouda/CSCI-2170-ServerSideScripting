@@ -1,0 +1,38 @@
+/**
+ * CSCI 2170: Intro to Server-Side Scripting
+ * Winter 2025
+ * Creating a very simple server using core Node modules
+ * Lecture 9: Feb 12, 2025
+ */
+
+body {
+    width: 80vw;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555756;
+}
+header.pg-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 10px solid #00abff;
+}
+header.pg-banner > h1 {
+    flex: 4;
+}
+nav.primary-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+main.pg-main-content {
+    padding: 1em;
+    min-height: 50vh;
+}
+
+footer.pg-footer {
+    padding: 1em;
+    border-top: 4px solid gold;
+}
