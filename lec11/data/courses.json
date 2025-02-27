@@ -1,0 +1,154 @@
+[
+    {
+        "courseCode": "CSCI 1110.03",
+        "courseName": "Introduction to Computer Science"
+    },
+    {
+        "courseCode": "CSCI 1120.03",
+        "courseName": "Introduction to Computer Systems"
+    },
+    {
+        "courseCode": "CSCI 1170.03",
+        "courseName": "Introduction to Web Design and Development"
+    },
+    {
+        "courseCode": "CSCI 1315.03",
+        "courseName": "Discrete Mathematics for Computer Science"
+    },
+    {
+        "courseCode": "CSCI 1800.03",
+        "courseName": "Society and Technology before Automation"
+    },
+    {
+        "courseCode": "CSCI 1801.03",
+        "courseName": "Society and Technology in the Automation Age"
+    },
+    {
+        "courseCode": "CSCI 2100.03",
+        "courseName": "Communication Skills - Oral and Written"
+    },
+    {
+        "courseCode": "CSCI 2110.03",
+        "courseName": "Data Structures and Algorithms"
+    },
+    {
+        "courseCode": "CSCI 2115.03",
+        "courseName": "Theory of Computer Science"
+    },
+    {
+        "courseCode": "CSCI 2122.03",
+        "courseName": "Systems Programming"
+    },
+    {
+        "courseCode": "CSCI 2134.03",
+        "courseName": "Software Development"
+    },
+    {
+        "courseCode": "CSCI 2141.03",
+        "courseName": "Introduction to Database Systems"
+    },
+    {
+        "courseCode": "CSCI 3101.03",
+        "courseName": "Social, Ethical and Professional Issues in Computer Science"
+    },
+    {
+        "courseCode": "CSCI 3110.03",
+        "courseName": "Design and Analysis of Algorithms I"
+    },
+    {
+        "courseCode": "CSCI 3120.03",
+        "courseName": "Operating Systems"
+    },
+    {
+        "courseCode": "CSCI 3130.03",
+        "courseName": "Introduction to Software Engineering"
+    },
+    {
+        "courseCode": "CSCI 3137.03",
+        "courseName": "Principles of Programming Languages"
+    },
+    {
+        "courseCode": "CSCI 3171.03",
+        "courseName": "Network Computing"
+    },
+    {
+        "courseCode": "CSCI 1300.03",
+        "courseName": "Calculus in Computer Science"
+    },
+    {
+        "courseCode": "MATH 1000.03",
+        "courseName": "Differential and Integral Calculus I"
+    },
+    {
+        "courseCode": "MATH 1030.03",
+        "courseName": "Matrix Theory and Linear Algebra I"
+    },
+    {
+        "courseCode": "CSCI 2360.03",
+        "courseName": "Probability and Statistics for CS"
+    },
+    {
+        "courseCode": "STAT 2060.03",
+        "courseName": "Introduction to Probability and Statistics I"
+    },
+    {
+        "courseCode": "CSCI 1107.03",
+        "courseName": "Social Computing"
+    },
+    {
+        "courseCode": "CSCI 1108.03",
+        "courseName": "Experimental Robotics"
+    },
+    {
+        "courseCode": "CSCI 1109.03",
+        "courseName": "Practical Data Science"
+    },
+    {
+        "courseCode": "BIOL 1010.03",
+        "courseName": "Principles of Biology I"
+    },
+    {
+        "courseCode": "BIOL 1011.03",
+        "courseName": "Principles of Biology II"
+    },
+    {
+        "courseCode": "CHEM 1011.03",
+        "courseName": "Concepts in Chemistry I"
+    },
+    {
+        "courseCode": "CHEM 1012.03",
+        "courseName": "Concepts in Chemistry II"
+    },
+    {
+        "courseCode": "ENGI 1103.03",
+        "courseName": "Engineering Design I"
+    },
+    {
+        "courseCode": "ERTH 1080.03",
+        "courseName": "Geology I"
+    },
+    {
+        "courseCode": "PHYC 1190.03",
+        "courseName": "Introduction to Physics"
+    },
+    {
+        "courseCode": "PHYC 1290.03",
+        "courseName": "Introduction to Physics"
+    },
+    {
+        "courseCode": "PHYC 1310.03",
+        "courseName": "Physics In & Around You I"
+    },
+    {
+        "courseCode": "PHYC 1320.03",
+        "courseName": "Physics In & Around You II"
+    },
+    {
+        "courseCode": "PSYO 1011.03",
+        "courseName": "Introduction to Psychology and Neuroscience I -  From Neuron to Person"
+    },
+    {
+        "courseCode": "PSYO 1012.03",
+        "courseName": "Introduction to Psychology and Neuroscience II -  From Social Interaction to Psychopathology"
+    }
+]
