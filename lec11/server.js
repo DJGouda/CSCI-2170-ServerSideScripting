@@ -56,12 +56,8 @@ const server = http.createServer((request, response) => {
 
             // updatedHTML = replaceString.generateResponse(
             //                             html, 
-            //                             /COURSE_CODE_HERE/, 
-            //                             course.courseCode);
             // updatedHTML = replaceString.generateResponse(
-            //                             updatedHTML, 
-            //                             /COURSE_CODE_HERE/, 
-            //                             course.courseCode);
+            //  
     
             updatedHTML = html.replace(
                 /COURSE_CODE_HERE/,
