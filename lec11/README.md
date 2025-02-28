@@ -2,7 +2,7 @@
 
 Lecture discussions: Feb 26, 2025
 
-## Lecture plan
+## Lecture plan for today
 
 * Exploring response customization in templates
   * Working with templates with replaceable strings
