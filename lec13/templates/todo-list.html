@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            width: clamp(450px, 70vw, 1000px);
+            margin: 0 auto;
+            line-height: 1.2;
+        }
+        header.pg-banner {
+            height: 10vh;
+            align-content: center;
+            padding: 0 1em;
+            border-bottom: 5px solid #00abff;
+        }
+        footer.pg-footer {
+            height: 10vh;
+            align-content: center;
+            padding: 0 1em;
+            border-top: 2px solid gold;
+        }
+        main.pg-main-content {
+            padding: 2em 1em;
+            min-height: 400px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="pg-banner">
+        <h1>To-do List</h1>
+    </header>
+
+    <main class="pg-main-content">
+        <div id="todo-container">
+
+        </div>
+    </main>
+
+    <footer class="pg-footer">
+        <p>&copy; This website.</p>
+    </footer>
+
+    <script>
+
+        const todoContainer = document.querySelector("#todo-container");
+
+        async function getData() {
+            const response = await fetch("/get");
+            const data = await response.text();
+
+            console.log(data);
+            todoContainer.innerHTML += data;
+
+            const listItems = document.querySelectorAll("li");
+
+            listItems.forEach(item => {
+                item.addEventListener("click", () => {
+                    console.log("clicked" + item.id);
+
+                    fetch(`/update/${item.id}`)
+                    .then(response => response.text())
+                    .then(data => {
+                        console.log(data);
+                        
+                        
+                    })
+                    .catch(err => console.error(err));
+                });
+            });
+        }
+
+        getData();
+
+
+    </script>
+
+</body>
+</html>
