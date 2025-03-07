@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Luke Skywalker",
+        "birth_year": "19BBY",
+        "gender": "male",
+        "lightsaber_colour": "blue"
+    },
+    {
+        "name": "C-3PO",
+        "birth_year": "112BBY",
+        "gender": "n/a",
+        "lightsaber_colour": "n/a"
+    },
+    {
+        "name": "R2-D2",
+        "birth_year": "33BBY",
+        "gender": "n/a",
+        "lightsaber_colour": "n/a"
+    },
+    {
+        "name": "Darth Vader",
+        "birth_year": "41.9BBY",
+        "gender": "male",
+        "lightsaber_colour": "red"
+    },
+    {
+        "name": "Leia Organa",
+        "birth_year": "19BBY",
+        "gender": "female",
+        "lightsaber_colour": "green"
+    },
+    {
+        "name": "Owen Lars",
+        "birth_year": "52BBY",
+        "gender": "male",
+        "lightsaber_colour": "n/a"
+    },
+    {
+        "name": "Beru Whitesun lars",
+        "birth_year": "47BBY",
+        "gender": "female",
+        "lightsaber_colour": "n/a"
+    },
+    {
+        "name": "Obi-Wan Kenobi",
+        "birth_year": "57BBY",
+        "gender": "male",
+        "lightsaber_colour": "blue"
+    },
+    {
+        "name": "Mace Windu",
+        "birth_year": "72BBY",
+        "gender": "male",
+        "lightsaber_colour": "purple"
+    }
+]
