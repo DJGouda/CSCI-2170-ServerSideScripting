@@ -4,6 +4,8 @@
  * Lab 4: db.js
  */
 
+// @Duren Gouda
+
 const mysql = require("mysql");
 
 const db = mysql.createConnection({
