@@ -1,3 +1,4 @@
+// @DurenGouda
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') { // should be REQUEST_METHOD, logic error
   $action = $_POST['action']; // should be $_POST, logic error
