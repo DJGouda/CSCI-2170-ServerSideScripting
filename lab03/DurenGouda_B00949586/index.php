@@ -1,3 +1,4 @@
+// @Duren Gouda
 <?php
 require_once('templates/header.php'); // syntax error!!, wrong relative path was there before, now fixed.
 
