@@ -1,0 +1,128 @@
+/**
+ * CSCI 2170: Intro to Server-Side Scripting
+ * Winter 2025
+ * Main stylesheet for the website
+ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+body > * {
+    padding: 1em;
+}
+
+.warning {
+    margin: 3em 0;
+    padding: 1em;
+    background-color: maroon;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.warning::before {
+    content: "~ ~ ~ ";
+}
+.warning::after {
+    content: " ~ ~ ~";
+}
+
+header.pg-banner {
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+form#login-form {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+nav.primary-nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+nav.primary-nav a,
+nav.primary-nav a:link,
+nav.primary-nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+nav.primary-nav a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+main.pg-main-content {
+    min-height: 50vh;
+}
+
+footer.pg-footer {
+    min-height: 10vh;
+    border-top: 5px solid lightgrey;
+}
+
+section#dashboard {
+    margin: 10em 0;
+}
+
+.dashboard-table,
+.dashboard-table th,
+.dashboard-table td {
+    border-bottom: 1px solid lightgrey;
+    border-collapse: collapse;
+    padding: 0.5em 1em;
+}
+.dashboard-table th {
+    background-color: lightgoldenrodyellow;
+}
+
+.dashboard-table-container {
+    display: flex;
+    justify-content: stretch;
+    gap: 3em;
+}
+.dashboard-table-container > * {
+    flex: 1;
+}
+
+
+#display-mode-toggler {
+    font-size: 1.1em;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.dark-button {
+    background-color: #414242;
+    color: white;
+}
+.dark-button:hover,
+.dark-button:active {
+    background-color: black;
+    color: yellow;
+}
+
+
+/* Responsive styles */
+@media (width < 840px) {
+    header.pg-banner,
+    nav.primary-nav {
+        flex-direction: column;
+    }
+    
+    .dashboard-table-container {
+        flex-direction: column;
+        gap: 3em;
+    }
+}
+
+@media (width < 1000px) {
+    form#login-form {
+        flex-direction: column;
+    }
+}

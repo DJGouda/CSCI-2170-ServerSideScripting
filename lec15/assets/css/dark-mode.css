@@ -1,0 +1,29 @@
+/**
+ * CSCI 2170: Intro to Server-Side Scripting
+ * Winter 2025
+ * Stylesheet with dark-mode styles for the website
+ * Note: Dark or light mode will be configured by device settings
+ */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #404141;
+        color: white;
+    }
+    header.pg-banner {
+        background-color:rgb(7, 80, 116);
+    }
+    .warning {
+        color: lightsalmon;
+        font-weight: bold;
+    }
+
+    .dashboard-table,
+    .dashboard-table th,
+    .dashboard-table td {
+        border-bottom: 1px solid grey;
+    }
+    .dashboard-table th {
+        background-color:rgb(126, 91, 2);
+    }
+}
