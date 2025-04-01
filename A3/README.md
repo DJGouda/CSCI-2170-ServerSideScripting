@@ -35,3 +35,5 @@ The application must provide the following API endpoints:
 ## Data Storage
 
 For simplicity, this version uses in-memory storage. In a production environment, you would want to use a proper database.
+
+# BY: Duren Gouda
